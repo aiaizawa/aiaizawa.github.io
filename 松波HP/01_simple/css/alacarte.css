@@ -1,0 +1,71 @@
+
+body{
+  margin: 0;
+  font-family: serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 13px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 60px; 
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+main{
+  padding:  0 32px 60px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+h2{
+  border-bottom: 1.6px solid black; 
+  margin:40px auto 24px;
+  padding-bottom: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.title{
+  width: 200px;
+}
+
+.price{
+  margin-left: auto;
+}
+
+@media(min-width:768px){
+  body{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container_pc{
+    padding: 30px;
+    width: 440px;
+    box-sizing: border-box;
+  }
+  .title{
+    width: 220px;
+  }
+
+}

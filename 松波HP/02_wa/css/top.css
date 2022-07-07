@@ -1,0 +1,318 @@
+body{
+  background-image: url(../img/washi.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header,main{
+  display: block;
+}
+
+/* menu_bar */
+
+.box1_1{
+  width: 4vw;
+  padding: 4vw 0 0 4vw;
+}
+
+.nav_toggle{
+  display: block;
+  position: relative;
+  width: 4vw;
+  height: 1.5rem;
+  margin: 0 auto;
+}
+
+.nav_toggle i{
+  display: block;
+  width: 100%;
+  height: 1.6px;
+  background-color: #333;
+  position: absolute;
+  transition: transform .5s, opacity .5s;
+}
+
+.nav_toggle i:nth-child(1){
+  top: 0;
+}
+
+.nav_toggle i:nth-child(2){
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.nav_toggle i:nth-child(3){
+  bottom: 0;
+}
+
+.nav_toggle.show i:nth-child(1){
+  transform: translateY(10px) rotate(-45deg);
+  z-index: 4;
+}
+
+.nav_toggle.show i:nth-child(2){
+  opacity:0;
+  z-index: 4;
+}
+
+.nav_toggle.show i:nth-child(3){
+  transform: translateY(-12px) rotate(45deg);
+  z-index: 4;
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12vw 0 0 12vw;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s, visibility .5s;
+}
+
+.nav.show{
+  opacity: 1;
+  visibility: visible;
+  background-color: white;
+  padding: 12vw 0 0 0;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+nav li{
+  text-align: center;
+}
+
+nav li:not(:first-child){
+  margin-top: 40px;
+}
+
+.box1_2{
+  padding-left: 4vw;
+  flex: 1;
+}
+
+.box1_2 img{
+  display: block;
+  min-width: none;
+}
+
+.top_pic{
+  margin-right: -4vw;
+  flex: 1;
+  flex-shrink: 1;
+  margin-top:16vw ;
+  width: 68vw;
+}
+
+.title{
+  padding-bottom: 4vw;
+  animation-name: top_down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in; 
+  width: 24vw;
+}
+
+.box1_3{
+  width: 4vw;
+  position: fixed;
+  bottom: 4vw;
+  left: 4vw;
+  z-index: 10;
+}
+
+.box1_3 img{
+  display: block;
+  width: 100%;
+}
+
+
+/* main */
+
+/* section_menu */
+
+#menu{
+  flex-direction: row-reverse;
+  padding-left: 12vw;
+}
+
+section.container{
+  margin: 0;
+}
+
+.box2_1{
+  padding: 16vw 4vw 0 0;
+  width: 20vw;
+}
+
+.box2_1 ul{
+  padding-top: 40px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.box2_1 li:not(:first-child){
+  padding-top: 16px;
+}
+
+a span{
+  font-weight: bold;
+  padding-right: 8px;
+  /* font-size: 20px; */
+}
+
+.box2_2{
+  padding-top: 16vw;
+  z-index: 1;
+  width: 50vw;
+  height: 31vw;
+  margin-right: -24vw;
+}
+
+.box2_2 img{
+  display: block;
+  width: 50vw;
+  height: 31vw;
+} 
+
+.carousel {
+  margin: 0 auto;
+}
+
+.slick-slide {
+  height: 100%;
+}
+
+.slick-arrow::before{
+  content: ""!important;
+}
+
+.box2_3{
+  width: 38vw;
+  background-color: #cc8e5b;
+  margin-left: auto;
+  margin-bottom: auto;
+  flex-shrink: 1;
+}
+
+.index_box{
+  box-sizing: content-box;
+  padding: 4vw 4vw 4vw 0;
+  display: flex;
+  align-items: center;
+  width: 6vw;
+  margin-left: auto;
+  writing-mode: vertical-rl;
+  font-size: 32px;
+  letter-spacing: 8px;
+}
+
+.border{
+  width: 16px;
+  border-top: 1px solid black;
+  padding-bottom:4vw;
+}
+
+#commitment , #access{
+  padding: 8vw 4vw 8vw 0;
+}
+
+.box3_1{
+  width: 38vw;
+  background-color: #510c07;
+  margin-bottom: auto;
+  margin-right: -16vw;
+}
+
+#access .box3_1{
+  width: 38vw;
+  background-color: #1c3952;
+  margin-bottom: auto;
+  margin-right: -16vw;
+}
+
+.box3_1 .index_box{
+  box-sizing: content-box;
+  color: white;
+  padding: 4vw 0 4vw 12vw;
+  /* width: 24vw; */
+  margin: 0 auto 0 0;
+}
+
+.box3_1 .border{
+  border-color: white;
+}
+
+.box3_2{
+  margin-top: 16vw;
+  width: 50vw;
+  min-height: 31vw;
+  z-index: 2;
+}
+
+.box3_2 img{
+  width: 100%;
+}
+
+.box3_3{
+  padding: 16vw 0 0 4vw;
+  margin-left: auto;
+  width: 20vw;
+}
+
+h3{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.small{
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+h3:not(:first-child){
+  padding-top: 24px;
+}
+
+h4{
+  font-weight: bold;
+}
+
+p + h4{
+  margin-top: 10px;
+}
+
+iframe{
+  filter: saturate(0%);
+  width:100%;
+  height:100%;
+}
+
+footer{
+  padding: 4vw 4vw 4vw 12vw;
+  background-color: #010101;
+}
+
+.footer{
+  justify-content: space-between;
+}
+
+.box4_2 , .box4_3{
+  margin: auto 0;
+}
+footer li a{
+  color: white;
+}
+
+footer li:not(:first-child){
+  margin-left: 24px;
+}
+
+.fa-brands{
+  color: white;
+}
+

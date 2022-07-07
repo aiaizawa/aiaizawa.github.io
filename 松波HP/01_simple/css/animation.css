@@ -1,0 +1,95 @@
+/* common */
+a:hover , .nav >ul li:nth-child(3):hover{
+  text-decoration: underline black;
+  cursor: pointer;
+}
+
+.btn:hover , .fa-brands:hover{
+  opacity: .4;
+}
+
+/* responsive */
+
+@media(max-width:767px){
+
+  body{
+    font-size: 13px;
+  }
+
+  body > .container{
+    display: block;
+  }
+
+  .car_box{
+    width: calc(100vw - 64px);
+    height: calc((100vw - 64px) / 1.618);
+  } 
+  
+  .carousel img{
+    display: block;
+    width: calc(100vw - 64px);
+    height: calc((100vw - 64px) / 1.618);
+  }  
+
+  .logo{
+    top: 10px;
+    left: 10px;  
+    width: 72px;
+    height: 72px;
+  }
+
+  .nav_btn{
+    top: 10px;
+    right: 42px;
+  }  
+  
+  h2{
+    font-size: 24px;
+  }
+
+  .box2{
+    padding: 8px 32px 16px;
+  }
+  
+  iframe{
+    margin: 8px auto 0;
+    width: 100%;
+    height: calc((100vw - 64px - 32px) / 1.618);
+    padding-top: 0;
+  }
+  
+  .box2_inner{
+    padding:16px;
+  }
+
+  h3{
+    font-size: 13px;
+    padding-bottom: 4px;
+    font-weight: bold;
+  }
+
+  .box3 > p{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 11px;
+  }
+  
+  h3:not(:first-child){
+    padding-top: 8px;
+  }
+
+  footer{
+    padding: 4px;
+    font-size: 10px;
+  }
+  
+}
+
+@media(min-width:768px){
+  body > .container{
+  padding: 0 64px;
+  justify-content: space-between;
+  height: calc(100vh - 27px);
+  align-items: center;
+}
+}

@@ -1,0 +1,43 @@
+/* common */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  color: white;
+  letter-spacing: .2em;
+  background-color: black;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.container{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  max-width: initial;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* a:hover{
+  text-decoration: underline;
+} */
+
+.avoid-clicks{
+  pointer-events: none;
+}

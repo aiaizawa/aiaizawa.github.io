@@ -1,0 +1,156 @@
+a:hover{
+  text-decoration: none;
+  border-bottom: 1.6px solid #bf9d6d;
+}
+
+.box4_3 a:hover{
+  border-bottom: none;
+}
+
+.fa-brands:hover{
+  color: #bf9d6d;
+  transition-duration: .8s;
+}
+
+@keyframes top_down{
+  0%{
+    transform: translateY(-800px);
+  }
+  90%{
+    transform: none;
+  }
+  95%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+
+/* slide_in */
+
+.slide_in_r{
+  animation-name:slide_in;
+  animation-duration:2s;
+  transform-origin:top right; 
+  animation-fill-mode:forwards;
+}
+
+.slide_in_l{
+  animation-name:slide_in;
+  animation-duration:2s;
+  transform-origin:top left; 
+  animation-fill-mode:forwards;
+}
+  
+@keyframes slide_in{
+  0%{
+    transform: scaleX(0);
+  }
+  100%{
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.slide_in_r_trigger , .slide_in_l_trigger{
+  opacity: 0;
+}
+
+/* slide_in ここまで */
+
+
+@media(max-width:767px){
+
+  body{
+    font-size: 16px;
+  }
+  .nav_toggle{
+    width: 8vw;
+  }
+  
+  .box1_2{
+    padding-left: 8vw;
+  }
+
+  .top_pic{
+    width: 80vw;
+    margin-right: -20vw;
+    flex: 1;
+    flex-shrink: 1;
+  }
+
+  .box1_3{
+    width: 8vw;
+    position: fixed;
+    bottom: 4vw;
+    left: 4vw;
+    z-index: 10;
+  }
+  
+  .container{
+    display: block;
+  }
+  
+  #menu{
+    padding-left: 16vw;
+  }
+
+  .box2_1{
+    padding: 0;
+    width: 70vw;  
+  }
+
+  .box2_1 ul{
+    padding-top: 24px;
+    font-size: 20px;
+  }
+  
+  .box2_2 , .box2_2 img{
+    width: 70vw;
+    height: 43vw;
+  }
+
+  .index_box{
+    font-size: 24px;
+    letter-spacing: 8px;
+  }
+
+  .box3_1{
+    margin-right: -12vw;
+  }
+
+  .box3_1 .index_box{
+    padding-left: 16vw;
+  }
+
+  .border{
+    width: 12px;
+    border-top: 1px solid black;
+    padding-bottom:4vw;
+  }
+
+  .box3_2{
+    width: 70vw;
+    height: 43vw;
+  }
+
+  .box3_3{
+    padding: 4vw 0 0 24vw;
+    width: 70vw;  
+  }
+
+  iframe{
+    padding-left: 4vw;
+  }
+  
+  .box4_1{
+    padding-left: 4vw;
+  }
+
+  .box4_2{
+    display: none;
+  }
+
+}

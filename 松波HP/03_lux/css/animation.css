@@ -1,0 +1,189 @@
+.nav_menu_li a:hover , #menu h3 a:hover ,footer .box3_1 li a:hover{
+  border-bottom: .8px solid #b09761;
+}
+
+.btn:hover{
+  background-color: white;
+  transition-duration: .8s;
+}
+
+.fa-brands:hover{
+  color: #b09761;
+  transition-duration: .8s;
+}
+
+
+
+
+.box0_1{
+  opacity: 0;
+  animation: fade_up_anime 4s forwards;
+}
+.box0_2{
+  opacity: 0;
+  animation: fade_up_anime 4s .2s forwards;
+}
+.box0_3{
+  opacity: 0;
+  animation: fade_up_anime 4s .4s forwards;
+}
+.box0_4{
+  opacity: 0;
+  animation: fade_up_anime 4s .6s forwards;
+}
+.box0_5{
+  opacity: 0;
+  animation: fade_up_anime 4s .8s forwards;
+}
+.box0_6{
+  opacity: 0;
+  animation: fade_up_anime 4s 1s forwards;
+}
+.box0_7{
+  opacity: 0;
+  animation: fade_up_anime 4s 1.2s forwards;
+}
+.box0_8{
+  opacity: 0;
+  animation: fade_up_anime 4s 1.4s forwards;
+}
+.box0_9{
+  opacity: 0;
+  animation: fade_up_anime 4s 1.6s forwards;
+}
+
+@keyframes fade_up_anime{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+/* fadeUp */
+
+.fadeUp{
+  animation:fadeUpAnime 3s .8s forwards;
+  transform-origin: top;
+  opacity:0;
+}
+  
+@keyframes fadeUpAnime{
+  from {
+    opacity:0;
+    transform:translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+  
+  
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+  
+.fadeUpTrigger{
+    opacity: 0;
+}
+
+
+
+
+
+
+  
+@media(max-width:767px){
+
+  .nav_toggle{
+    top: 48px;
+    left: 48px;
+  }
+
+  .hum_menu{
+    top: calc(72px + 1.5rem);
+    left: 68px;  
+  }
+
+  #scroll{
+    right: 28px;
+  }
+
+  section , footer{
+    padding: 80px 48px 0;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .container{
+    display: block;
+  } 
+  
+  #menu .container , #access .container , .f_container{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .menu_box{
+    width: calc(100vw - 48px * 2);
+    padding: 0 0 40px 0 !important;
+    border: none !important;
+    margin: 0 auto;
+  }
+
+  h1 p{
+    font-size: 20px;
+  }
+  
+  h1 p:not(:last-child){
+    padding-right: 8px;
+  }  
+
+  .pc_pic{
+    display: none;
+  }
+
+  .sm_pic{
+    display: block;
+    width: 100%;
+    height: calc((100vw - 48px * 2) / 1.618);
+  }
+
+  #about > p{
+    width: 100%;
+  }
+  
+  .box2_1{
+    padding: 0;
+    margin: 0 auto;
+    width: calc(100vw - 48px * 2);
+    height: calc((100vw - 48px * 2) / 1.618);
+  }
+
+  .box2_2{
+    width: calc(100vw - 48px * 2);
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+
+  #menu .container{
+    padding-bottom: 8px;
+  }
+
+  footer > .container{
+    display: flex;
+  }
+
+  .f_container{
+    align-items: flex-end;
+  }
+
+  .box3_1 h2{
+    letter-spacing: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+}

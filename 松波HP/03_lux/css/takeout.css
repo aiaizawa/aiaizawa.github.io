@@ -1,0 +1,40 @@
+p{
+  margin-bottom: 0;
+}
+
+.pic , .container + p{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.pic img{
+  padding: 0;
+  width: 100%;
+}
+
+.container{
+  padding: 8px 15px;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title{
+  width: 160px;
+}
+
+.title , .price{
+  font-size: 16px;
+}
+
+.container + p{
+  padding-bottom: 40px;
+}
+
+@media(min-width:768px){
+  .title{
+    width: 200px;
+  }
+}

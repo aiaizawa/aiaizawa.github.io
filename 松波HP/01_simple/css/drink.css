@@ -1,0 +1,22 @@
+.container + h3{
+  margin-top: 8px;
+}
+
+h3{
+  font-size: 13px;
+  margin: 24px auto 16px auto;
+  padding-left: 15px;
+  /* font-weight: bold; */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media(min-width:768px){
+  .title{
+    width: 260px;
+  }
+  h3{
+    font-size: 18px;
+  }
+}
+

@@ -1,0 +1,56 @@
+
+body{
+  margin: 0;
+  font-family: serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+
+h1{
+  text-align: center;
+  padding: 60px 0 30px 0; 
+  margin: 0;
+  color: #b09761;
+}
+
+main{
+  padding:  32px 48px 30px;
+}
+
+.container{
+  display: flex;
+  padding:20px;
+  border-top: .8px solid white;
+  margin: 0 auto;
+}
+
+.container:last-child{
+  border-bottom: .8px solid white;
+}
+
+.day{
+  width: 200px;
+}
+
+.title{
+  width: 100%;
+}
+
+.btn{
+  width: 10px;
+  margin-left: auto;
+  padding-left: 8px;
+}
+
+@media(min-width:768px){
+  body{
+    font-size: 16px;
+    letter-spacing: .1rem;
+  }
+  .container{
+    max-width: 800px;
+  }
+}

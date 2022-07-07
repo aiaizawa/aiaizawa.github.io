@@ -1,0 +1,110 @@
+
+body{
+  margin: 0;
+  font-family: serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+  /* letter-spacing: .1em; */
+  font-size: 14px;
+}
+
+h1{
+  text-align: center;
+  padding: 60px 0 30px 0; 
+  margin: 0;
+  color: #b09761;
+}
+
+h2{
+  text-align: center;
+  margin: 0;
+  color: #b09761;
+}
+
+main{
+  padding:  0 48px 4vw;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.course_container .container{
+  padding:30px 0;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.course_container .title{
+  display: flex;
+  width: 100%;
+  border-bottom: .8px solid white;
+  margin-bottom: 8px; 
+}
+
+.course_container h3{
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.course_container .price{
+  margin: 0 0 0 auto;
+  padding-top: 5px;
+}
+
+.course_container p{
+  margin: 0;
+  padding: 8px 0;
+}
+
+
+.alacarte_container p{
+  padding: 8px 0;
+}
+
+.alacarte_container h3{
+  border-bottom: .8px solid white; 
+  margin: 0 auto;
+  padding: 30px 0 8px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.alacarte_container .container{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.alacarte_container .title{
+  width: 200px;
+}
+
+.alacarte_container .price{
+  margin-left: auto;
+}
+
+
+@media(min-width:768px){
+
+  body{
+    font-size: 16px;
+    letter-spacing: .1rem;
+  }
+  main{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container_pc{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 440px;
+    box-sizing: border-box;
+  }
+
+}

@@ -1,0 +1,75 @@
+html{
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: serif;
+  background-image: url(../img/washi.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 13px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 60px; 
+  margin: 0;
+  font-size: 24px;
+  color: black;
+}
+
+main{
+  padding:  40px 32px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding:20px;
+  border-top: 1px solid black;
+  align-items: center;
+}
+
+.container:last-child{
+  border-bottom: 1px solid black;
+}
+
+.day{
+  width: 120px;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.title{
+  width: 100%;
+}
+
+.btn{
+  width: 10px;
+  margin-left: auto;
+  padding-left: 20px;
+}
+
+@media(min-width:768px){
+  body{
+    font-size: 18px;
+    letter-spacing: .1rem;
+  }
+  h1{
+    font-size: 32px;
+  }
+  .container{
+    max-width: 800px;
+  }
+  .day{
+    width: 200px;
+    font-size: 15px;
+  }
+}  
