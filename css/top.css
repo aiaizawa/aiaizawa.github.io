@@ -186,12 +186,9 @@ h3{
   padding-bottom: 48px;
 }
 
-#concept .inner{
-  text-align: center;
-}
-
 #concept h3{
   padding-bottom: 40px;
+  text-align: center;
 }
 
 #concept span{
@@ -199,6 +196,11 @@ h3{
   font-size: 20px;
 }
 
+#concept .inner p{
+  width: calc(100vw - 150px * 2);
+  max-width: 805px;
+  margin: 0 auto;
+}
 
 /* works */
 

@@ -219,6 +219,11 @@ header{
     font-size: 14px;
   }
 
+  #concept .inner p{
+    width: calc(100vw - 48px * 2);
+    max-width: 500px;
+  }
+
   /* #concept p{
     text-align: left;
   } */
@@ -227,6 +232,8 @@ header{
     display: flex;
     align-items: center;
     border-width: 1.5px;
+    height: calc((100vw - 48px * 2 + 10px * 2) / 3);
+    width: calc((100vw - 48px * 2 + 10px * 2) / 3);
   }
 
   #about h3{
