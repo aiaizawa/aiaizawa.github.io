@@ -39,9 +39,15 @@ a:hover , .nav >ul li:nth-child(3):hover{
   }
 
   .nav_btn{
-    top: 10px;
-    right: 42px;
+    top: 6px;
+    right: 38px;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, .5);
   }  
+
+  .nav.show{
+    padding-top: calc(10px + 12px + 11px);
+  }
   
   h2{
     font-size: 24px;
@@ -59,7 +65,7 @@ a:hover , .nav >ul li:nth-child(3):hover{
   }
   
   .box2_inner{
-    padding:16px;
+    padding:16px 16px 0;
   }
 
   h3{
@@ -76,6 +82,10 @@ a:hover , .nav >ul li:nth-child(3):hover{
   
   h3:not(:first-child){
     padding-top: 8px;
+  }
+
+  .btn{
+    margin-top: 16px;
   }
 
   footer{

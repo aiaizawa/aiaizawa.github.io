@@ -2,11 +2,10 @@
 body{
   margin: 0;
   font-family: serif;
-  background-image: url(../img/washi.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
-  color: white;
+  background-color: rgb(6, 6, 5);
+  color: rgb(240, 237, 232);
   letter-spacing: normal;
   font-size: 14px;
 }
@@ -19,10 +18,12 @@ p{
 
 h1{
   text-align: center;
-  padding: 60px 0 30px 0; 
+  padding: 60px 0 0; 
   margin: 0;
-  font-size: 32px;
+  font-size: 28px;
   color: #b09761;
+  font-weight: normal;
+
 }
 
 main{
@@ -36,12 +37,13 @@ main{
 }
 
 h2{
-  border-bottom: .8px solid white; 
+  border-bottom: .8px solid rgb(240, 237, 232); 
   margin:40px auto 24px auto;
   padding-bottom: 8px;
   width: 100%;
   box-sizing: border-box;
   font-size: 20px;
+  font-weight: normal;
 }
 
 .container{

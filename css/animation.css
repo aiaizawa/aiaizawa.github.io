@@ -43,9 +43,12 @@ header{
 
   to {
     opacity: 1;
-    width: 342px;
-    height: 342px;
-  }
+    height: calc((100vw - 150px * 2 + 24px * 2) / 3);
+    width: calc((100vw - 150px * 2 + 24px * 2) / 3);
+    max-height: 342px;
+    max-width: 342px;
+    box-sizing: border-box;
+    }
 }
  
 .spread_trigger{
@@ -114,6 +117,7 @@ header{
 
   body{
     font-size: 12px;
+    letter-spacing: normal;
   }
 
   .container{
@@ -144,7 +148,7 @@ header{
   }
 
   .nav.show{
-    padding-top: calc(24px + 1.5rem.);
+    padding-top: calc(24px + 1.5rem);
   }
 
   .nav_menu_li{
@@ -153,6 +157,7 @@ header{
 
   h1{
     font-size: 32px;
+    letter-spacing: .2rem;
   }
 
   h2{
@@ -160,17 +165,9 @@ header{
   }
 
   .circle:not(:first-child){
-    margin-left: 0;
+    margin-left: -10px;
   }
-
-  .circle:nth-child(1){
-    margin: 100px -100px 0 0;
-  }
-
-  .circle:nth-child(3){
-    margin: 100px 0 0 -100px;
-  }
-  
+    
 
   @keyframes spread_anime{
     from {
@@ -181,9 +178,12 @@ header{
   
     to {
       opacity: 1;
-      width: 150px;
-      height: 150px;
-    }
+      height: calc((100vw - 48px * 2 + 10px * 2) / 3);
+      width: calc((100vw - 48px * 2 + 10px * 2) / 3);
+      max-height: 150px;
+      max-width: 150px;
+      box-sizing: border-box;
+        }
   }
   
 
@@ -219,8 +219,19 @@ header{
     font-size: 14px;
   }
 
-  #concept p{
+  /* #concept p{
     text-align: left;
+  } */
+
+  #about .circle{
+    display: flex;
+    align-items: center;
+    border-width: 1.5px;
+  }
+
+  #about h3{
+    padding: 0;
+    margin: auto;
   }
 
   #about h3 p:last-child , #about ul{
@@ -255,6 +266,11 @@ header{
     box-sizing: border-box;
   }
 
+  table tbody tr th p{
+    height: 12px;
+  }
+  
+
   table tbody img{
     width: 80px;
   }
@@ -272,6 +288,6 @@ header{
     padding: .8em .8px .8em .8em;
   }
   
-
+}
 
   

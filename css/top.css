@@ -139,8 +139,10 @@ h2 p:nth-child(2){
 }
 
 .circle{
-  height: 342px;
-  width: 342px;
+  height: calc((100vw - 150px * 2 + 24px * 2) / 3);
+  width: calc((100vw - 150px * 2 + 24px * 2) / 3);
+  max-height: 342px;
+  max-width: 342px;
   border-radius: 50%;
   border: 2px solid #b9caeb;
 }
@@ -155,23 +157,21 @@ h3{
 
 .circle h3{
   text-align: center;
-  /* text-decoration: underline solid black 2px; */
-  padding-top: 56px;
-  /* border-bottom: 2px solid black; */
-  /* font-weight: bold; */
+  padding-top: 20%;
+  top: 30%;
 }
 
 .circle h3 p{
   border-bottom: 1px solid black;
-  padding-top: 16px;
+  padding-top: 5%;
   width: 40px;
   margin: 0 auto;
 }
 
 .circle ul{
-  padding: 40px 24px 0 48px;
-  width: calc(342px - 24px * 3);
-  margin: 0 auto;
+  padding: 10% 24px 0 calc(24px + 1rem);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .circle:not(:first-child){
@@ -257,18 +257,23 @@ table thead th{
 }
 
 table tbody tr th{
-  writing-mode: vertical-rl;
+  /* writing-mode: vertical-rl; */
+  text-align: center;
   box-sizing: border-box;
   width: 40px;
   background-color: #eff2f5;
   font-size: .85em;
 }
 
+table tbody tr th p{
+  height: 18px;
+}
+
 table tbody tr:first-child td{
   vertical-align: middle;
 }
 
-.inner > table tbody tr:nth-child(3) p:first-child{
+.inner > table tbody tr:nth-child(3) td p:first-child{
   text-align: center;
   padding-bottom: 16px;
   font-weight: bold;

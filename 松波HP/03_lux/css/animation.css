@@ -3,7 +3,7 @@
 }
 
 .btn:hover{
-  background-color: white;
+  background-color: rgb(240, 237, 232);
   transition-duration: .8s;
 }
 
@@ -97,15 +97,6 @@
   
 @media(max-width:767px){
 
-  .nav_toggle{
-    top: 48px;
-    left: 48px;
-  }
-
-  .hum_menu{
-    top: calc(72px + 1.5rem);
-    left: 68px;  
-  }
 
   #scroll{
     right: 28px;
@@ -115,6 +106,10 @@
     padding: 80px 48px 0;
     width: 100vw;
     box-sizing: border-box;
+  }
+
+  footer{
+    padding: 80px 48px;
   }
 
   .container{
