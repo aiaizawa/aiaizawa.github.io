@@ -1,6 +1,7 @@
-a:hover{
-  text-decoration: none;
-  border-bottom: 1.6px solid #bf9d6d;
+
+.box1_3:hover{
+  filter: brightness(80%);
+  transition-duration: .8s;
 }
 
 .box4_3 a:hover{

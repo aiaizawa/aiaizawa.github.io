@@ -1,15 +1,4 @@
 
-body{
-  margin: 0;
-  font-family: serif;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgb(6, 6, 5);
-  color: rgb(240, 237, 232);
-  letter-spacing: normal;
-  font-size: 14px;
-}
-
 p{
   font-size: 14px;
   padding: 8px 0;

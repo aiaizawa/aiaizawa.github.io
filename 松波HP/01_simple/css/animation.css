@@ -1,11 +1,7 @@
 /* common */
-a:hover , .nav >ul li:nth-child(3):hover{
-  text-decoration: underline black;
-  cursor: pointer;
-}
-
 .btn:hover , .fa-brands:hover{
   opacity: .4;
+  transition-duration: .8s;
 }
 
 /* responsive */
@@ -16,7 +12,7 @@ a:hover , .nav >ul li:nth-child(3):hover{
     font-size: 13px;
   }
 
-  body > .container{
+  main .container{
     display: block;
   }
 
@@ -96,10 +92,26 @@ a:hover , .nav >ul li:nth-child(3):hover{
 }
 
 @media(min-width:768px){
-  body > .container{
-  padding: 0 64px;
+  main{
+    height: calc(100vh - 40px);
+    box-sizing: border-box;
+  }
+
+  main .container{
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px 64px;
   justify-content: space-between;
-  height: calc(100vh - 27px);
   align-items: center;
 }
+
+  .box2{
+    height: 560px;
+  }
+
+  footer{
+    padding: 8px 0;
+    height: 40px;
+    box-sizing: border-box;
+  }
 }

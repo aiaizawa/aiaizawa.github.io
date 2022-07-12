@@ -78,9 +78,7 @@ section.container{
 }
 
 a span{
-  font-weight: bold;
   padding-right: 8px;
-  /* font-size: 20px; */
 }
 
 .box2_2{
@@ -139,6 +137,10 @@ a span{
   padding: 8vw 4vw 8vw 0;
 }
 
+#commitment h3{
+  font-size: 24px;
+}
+
 .box3_1{
   width: 38vw;
   background-color: #510c07;
@@ -185,6 +187,7 @@ a span{
 h3{
   padding-bottom: 10px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .small{

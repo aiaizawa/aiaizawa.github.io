@@ -12,6 +12,10 @@
   <!-- slick CSS CDN -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">    
   <!-- css -->
   <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../css/hum_menu.css">
@@ -20,37 +24,20 @@
 </head>
 
 <body>
-  <div class="container">
-    <header id="top">
-      <div class="car_box">
-        <div class="carousel">
-          <div class="carousel_img"><img src="../img/alacarte.jpeg" alt="画像1"></div>
-          <div class="carousel_img"><img src="../img/dish01.jpeg" alt="画像2"></div>
-          <div class="carousel_img"><img src="../img/sand.jpeg" alt="画像3"></div>
-          <div class="carousel_img"><img src="../img/atmosphere.jpeg" alt="画像4"></div>
-        </div>
-  
-        <h1 class="logo">
-          <img src="../img/logo_alp.png">
-        </h1>
-      </div>
-    </header>  
-  
+  <header id="top">
+    <div class="nav_btn">
+      <span class="nav_toggle">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
     
-    <main>
-      <div class="nav_btn">
-        <span class="nav_toggle">
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
-      </div>
-  
     <nav class="nav">
       <ul>
         <li><a href="../html/top.html">top</a></li>
         <li><a href="news.html">news</a></li>
-        <li class="aco_open">menu</li>
+        <li class="aco_open">menu <i class="fa-solid fa-caret-down fa-1x"></i></li>
         <div class="aco">
           <ul>
             <li><a href="../html/course.html">コース</a></li>
@@ -63,24 +50,41 @@
         <li><a href="https://yoyaku.toreta.in/matsunami/#/" target="_blank">reservation</a></li>
       </ul>
     </nav>
+  </header>  
+
+  <main>
+    <div class="container">
+      <div class="car_box">
+        <div class="carousel">
+          <div class="carousel_img"><img src="../img/alacarte.jpeg" alt="画像1"></div>
+          <div class="carousel_img"><img src="../img/dish01.jpeg" alt="画像2"></div>
+          <div class="carousel_img"><img src="../img/sand.jpeg" alt="画像3"></div>
+          <div class="carousel_img"><img src="../img/atmosphere.jpeg" alt="画像4"></div>
+        </div>
+  
+        <h1 class="logo">
+          <img src="../img/logo_alp.png">
+        </h1>
+      </div>
+  
       <div class="box2" id="access">
         <h2>access</h2>
         <p>- 各線「浅草駅」より徒歩3分 -</p>
-        <div class="box2_inner">
-          <h3>＜営業時間＞</h3>
+        <div class="box2_inner no_line">
+          <h3>< 営業時間 ></h3>
           <div>
             <p><span> lunch</span>
             11:30~14:00</p>
             <p><span> dinner</span>17:00~23:00 (土日祝は22:00まで)</p>
           </div>
-          <h3>＜電話＞</h3>
+          <h3>< 電話 ></h3>
           <p>03-3844-3737</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.565478784252!2d139.79015265046033!3d35.71230903577774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ebf71654c4f%3A0x4a153871d00a12f8!2z44K544OG44O844Kt44OP44Km44K55p2-5rOi!5e0!3m2!1sja!2sjp!4v1650509157563!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
-          <a href="https://yoyaku.toreta.in/matsunami/#/" target="_blank" class="btn">ご予約はこちら</a>
+          <a href="https://yoyaku.toreta.in/matsunami/#/" target="_blank"><img src="../img/btn.png" class="btn"></a>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+  </main>
 
   <ul class="footer_list">
     <li><a href="https://ja-jp.facebook.com/AsakusaMatsunamiSteak/" target="_blank"><i class="fa-brands fa-facebook fa-1x"></i></a></li>        

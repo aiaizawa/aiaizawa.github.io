@@ -1,9 +1,37 @@
-.nav_menu_li a:hover{
-  border-bottom: 1px solid #09174e;
+
+a:hover{
+  text-decoration: none;
+}
+
+a{
+  position: relative;
+}
+
+a::after{
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #09174e;
+  bottom: -1px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+a:hover::after{
+  visibility: visible;
+  opacity: 1;
+  transition: .8s;
+}
+
+#works a:hover::after{
+  visibility: hidden;
 }
 
 #works a:hover{
   filter: brightness(80%);
+  transition-duration: .8s;
 }
 
 .aco_open:hover , .aco_close:hover{
@@ -142,28 +170,83 @@ header{
   .nav_toggle i{
     background-color: #09174e;
   }
-
+  
   .nav{
     top: 64px;
   }
-
+  
   .nav.show{
     padding-top: calc(24px + 1.5rem);
   }
-
+  
   .nav_menu_li{
     font-size: 18px;
   }
-
+  
   h1{
     font-size: 32px;
     letter-spacing: .2rem;
   }
-
+  
   h2{
     font-size: 18px;
   }
+  
+  .inner , footer{
+    padding: 24px 48px;
+  }
 
+  section , footer{
+    margin-top: 24px;
+  }
+  
+  
+  @keyframes extend_anime{
+    from {
+      opacity:0;
+      width: 0;
+    }
+    to {
+      opacity: 1;
+      width: 150px;
+    }
+  }
+  
+  h2 p:nth-child(1){
+    border-bottom: 1.5px solid #09174e;
+    padding-top: 24px;
+  }
+  
+  h2 p:nth-child(2){
+    padding: 16px 0 0 48px;
+  }  
+  
+  h3{
+    font-size: 16px;
+  }
+  
+  
+  /* #concept p{
+    text-align: left;
+  } */
+  
+  #about .circle{
+    display: flex;
+    align-items: center;
+    border-width: 1.5px;
+    height: calc((100vw - 48px * 2 + 10px * 2) / 3);
+    width: calc((100vw - 48px * 2 + 10px * 2) / 3);
+  }
+  
+  #about h3{
+    padding: 0;
+    margin: auto;
+  }
+  
+  #about h3 p:last-child , #about ul{
+    display: none;
+  }
+  
   .circle:not(:first-child){
     margin-left: -10px;
   }
@@ -185,32 +268,6 @@ header{
       box-sizing: border-box;
         }
   }
-  
-
-  @keyframes extend_anime{
-    from {
-      opacity:0;
-      width: 0;
-    }
-    to {
-      opacity: 1;
-      width: 150px;
-    }
-  }
-  
-  h2 p:nth-child(1){
-    border-bottom: 1.5px solid #09174e;
-    padding-top: 24px;
-  }
-  
-  h2 p:nth-child(2){
-    padding: 16px 0 0 48px;
-  }  
-
-  h3{
-    font-size: 16px;
-  }
-
   #concept h3{
     padding-bottom: 24px;
   }
@@ -224,34 +281,6 @@ header{
     max-width: 500px;
   }
 
-  /* #concept p{
-    text-align: left;
-  } */
-
-  #about .circle{
-    display: flex;
-    align-items: center;
-    border-width: 1.5px;
-    height: calc((100vw - 48px * 2 + 10px * 2) / 3);
-    width: calc((100vw - 48px * 2 + 10px * 2) / 3);
-  }
-
-  #about h3{
-    padding: 0;
-    margin: auto;
-  }
-
-  #about h3 p:last-child , #about ul{
-    display: none;
-  }
-
-  .inner , footer{
-    padding: 24px 48px;
-  }
-
-  section , footer{
-    margin-top: 24px;
-  }
 
   .pc_img{
     display: none;

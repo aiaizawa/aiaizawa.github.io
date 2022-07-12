@@ -1,3 +1,25 @@
+/* common */
+html{
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: 'Hina Mincho', serif;
+  background-image: url(../img/washi.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  letter-spacing: .1em;
+  font-size: 16px;
+}
+
+.yen{
+  font-size: 80%;
+}
+
+
 /* navi */
 ul{
   padding: 0;
@@ -97,7 +119,32 @@ nav li{
 /* animation */
 a:hover{
   text-decoration: none;
-  border-bottom: 1.6px solid #bf9d6d;
+}
+
+a{
+  position: relative;
+}
+
+a::after{
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1.6px;
+  background: #bf9d6d;
+  bottom: -1px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+a:hover::after{
+  visibility: visible;
+  opacity: 1;
+  transition: .8s;
+}
+
+.box4_3 a:hover::after , .no_line a:hover::after{
+  visibility: hidden;
 }
 
 @media(max-width:767px){

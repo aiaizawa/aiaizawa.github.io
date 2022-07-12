@@ -1,3 +1,7 @@
+body{
+  letter-spacing: .2em;
+}
+
 header{
   background-image: url(../img/top_pic.jpeg);
   background-size: cover;
@@ -212,10 +216,11 @@ p + h4{
   margin-top: 10px;
 }
 
-.box2_2 img{
+.box2_2 .btn{
   display: block;
-  margin-left:auto ;
+  margin:0 auto ;
   margin-top: 40px;
+  width: 61.8%;
 }
 
 /* footer */

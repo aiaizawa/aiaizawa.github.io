@@ -341,7 +341,7 @@ table tbody ul li:not(:last-child){
 }
 
 .aco_open span, .aco_close span{
-  font-size: 10px;
+  font-size: 80%;
 }
 
 footer{
