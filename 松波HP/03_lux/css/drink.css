@@ -16,13 +16,13 @@ h3{
 }
 
 .title{
-  width: 190px;
+  width: 200px;
 }
 
 
 @media(min-width:768px){
 
   .title{
-    width: 240px;
+    width: 250px;
   }
 }

@@ -166,13 +166,13 @@ h3 span{
 /* access */
 #access .container{
   padding: 48px 0;
-  margin: auto;
-  width: calc(100vw - 128px);
-  max-width: 1006px;
+  justify-content: space-evenly;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .box2_1{
-  width: 542px;
+  width: 50%;
   padding-right: 64px;
   box-sizing: content-box;
 }
@@ -184,7 +184,7 @@ iframe{
 }
 
 .box2_2{
-  width: 335px;
+  width: 210px;
 }
 
 h3{
@@ -212,16 +212,20 @@ h4{
   margin: 0;
 }
 
-p + h4{
-  margin-top: 10px;
+.inner + h4{
+  padding-top: 10px;
 }
 
 .box2_2 .btn{
   display: block;
-  margin:0 auto ;
   margin-top: 40px;
-  width: 61.8%;
+  width: 100%;
 }
+
+.inner{
+  padding-left: 8px;
+}
+
 
 /* footer */
 

@@ -155,13 +155,8 @@
   }
 
   .box2_2{
-    width: calc(100vw - 48px * 2);
     padding-top: 40px;
-    margin: 0 auto;
-  }
-
-  .box2_2 .btn{
-    max-width: 200px;
+    /* margin: 0 auto; */
   }
 
   #menu .container{
@@ -180,6 +175,10 @@
     letter-spacing: 8px;
     font-size: 16px;
     text-transform: uppercase;
+  }
+
+  .box3_1 li:not(:last-child){
+    padding-bottom: 4px;
   }
   
 }

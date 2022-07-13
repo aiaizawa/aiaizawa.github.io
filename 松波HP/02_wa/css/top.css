@@ -186,12 +186,12 @@ a span{
 
 h3{
   padding-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .small{
-  font-size: 13px;
+  font-size: 80%;
   margin-top: 5px;
 }
 
@@ -201,10 +201,15 @@ h3:not(:first-child){
 
 h4{
   font-weight: bold;
+  font-size: 18px;
 }
 
-p + h4{
-  margin-top: 10px;
+.inner{
+  padding-left: 8px;
+}
+
+.inner + h4{
+  padding-top: 10px;
 }
 
 iframe{
@@ -225,6 +230,7 @@ footer{
 .box4_2 , .box4_3{
   margin: auto 0;
 }
+
 footer li a{
   color: white;
 }

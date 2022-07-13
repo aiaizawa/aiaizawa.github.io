@@ -144,7 +144,7 @@ a:hover::after{
   transition: .8s;
 }
 
-.sns_list a:hover::after , .menu_box > a:hover::after , .no_line a:hover::after{
+.sns_list a:hover::after , .menu_box > a:hover::after , .box3_1 > a:hover::after , .no_line a:hover::after{
   visibility: hidden;
 }
 

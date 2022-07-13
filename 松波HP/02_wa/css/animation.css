@@ -87,11 +87,14 @@
     position: fixed;
     bottom: 4vw;
     left: 4vw;
-    z-index: 10;
   }
   
   .container{
     display: block;
+  }
+
+  #commitment h3{
+    font-size: 20px;
   }
   
   #menu{
@@ -140,6 +143,10 @@
   .box3_3{
     padding: 4vw 0 0 24vw;
     width: 70vw;  
+  }
+
+  #access h3{
+    font-size: 18px;
   }
 
   iframe{
