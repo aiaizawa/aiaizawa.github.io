@@ -305,8 +305,11 @@ header{
   table tbody tr th p{
     height: 12px;
   }
-  
 
+  .wa .point , .lux .point{
+    padding-bottom: 33px;
+  }
+  
   table tbody img{
     width: 80px;
   }

@@ -289,7 +289,7 @@ table tbody tr:first-child td{
   letter-spacing: normal;
 }
 
-.inner > table tbody tr:nth-child(3) td p:first-child{
+.point{
   text-align: center;
   padding-bottom: 16px;
   font-weight: bold;
