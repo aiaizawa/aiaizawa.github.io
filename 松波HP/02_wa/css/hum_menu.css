@@ -12,7 +12,7 @@ body{
   background-repeat: no-repeat;
   color: black;
   letter-spacing: .1em;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .yen{
@@ -151,4 +151,8 @@ a:hover::after{
   .nav_toggle{
     width: 8vw;
 }
+
+  body{
+    font-size: 16px;
+  }
 }

@@ -169,7 +169,7 @@ h3{
 }
 
 .circle ul{
-  padding: 10% 24px 0 calc(24px + 1rem);
+  padding: 10% 18px 0 calc(30px + 1rem);
   width: 100%;
   box-sizing: border-box;
 }
@@ -177,6 +177,14 @@ h3{
 .circle:not(:first-child){
   margin-left: -24px;
 }
+
+/* #about li , #works li::before{
+  content: "・";
+  width: 20px;
+  height: 20px;
+  display: inline-block ;
+  margin-right: 5px;
+} */
 
 
 /* concept */
@@ -198,7 +206,7 @@ h3{
 
 #concept .inner p{
   width: calc(100vw - 150px * 2);
-  max-width: 810px;
+  max-width: 840px;
   margin: 0 auto;
 }
 
@@ -295,7 +303,7 @@ table tbody img{
   width: 300px;
 }
 
-table tbody .container{
+.aco table tbody .container{
   justify-content: center;
   align-items: center;
 }

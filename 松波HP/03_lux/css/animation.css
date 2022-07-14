@@ -9,6 +9,11 @@
   transition-duration: .8s;
 }
 
+#menu img:hover{
+  filter: brightness(130%);
+  transition-duration: .8s;
+  /* border: solid 1px rgb(240, 237, 232); */
+}
 
 
 

@@ -185,23 +185,23 @@ a span{
 }
 
 h3{
-  padding-bottom: 10px;
+  padding-bottom: 4px;
   font-size: 20px;
   font-weight: bold;
 }
 
 .small{
   font-size: 80%;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 h3:not(:first-child){
-  padding-top: 24px;
+  padding-top: 40px;
 }
 
 h4{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .inner{
@@ -209,7 +209,7 @@ h4{
 }
 
 .inner + h4{
-  padding-top: 10px;
+  padding-top: 4px;
 }
 
 iframe{
