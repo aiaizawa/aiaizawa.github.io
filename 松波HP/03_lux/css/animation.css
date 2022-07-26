@@ -1,17 +1,17 @@
 
 .btn:hover{
   background-color: rgb(240, 237, 232);
-  transition-duration: .8s;
+  transition-duration: 1s;
 }
 
 .fa-brands:hover{
   color: #b09761;
-  transition-duration: .8s;
+  transition-duration: 1s;
 }
 
 #menu img:hover{
   filter: brightness(130%);
-  transition-duration: .8s;
+  transition-duration: 1s;
   /* border: solid 1px rgb(240, 237, 232); */
 }
 

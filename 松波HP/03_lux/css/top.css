@@ -62,7 +62,7 @@ h1 p:not(:last-child){
   background: rgba(255, 255, 255, .4);
 }
 #scroll::after {
-  animation: sdl 1.2s linear infinite ;
+  animation: sdl 1.8s linear infinite ;
 }
 @keyframes sdl {
   0% {
