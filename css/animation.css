@@ -190,6 +190,7 @@ header{
   
   h2{
     font-size: 18px;
+    padding: 16px 0 0 48px;
   }
   
   .inner , footer{
@@ -212,23 +213,17 @@ header{
     }
   }
   
-  h2 p:nth-child(1){
+  .extend_trigger{
     border-bottom: 1.5px solid #09174e;
     padding-top: 24px;
   }
   
-  h2 p:nth-child(2){
-    padding: 16px 0 0 48px;
-  }  
   
   h3{
     font-size: 16px;
   }
   
   
-  /* #concept p{
-    text-align: left;
-  } */
   
   #about .circle{
     display: flex;

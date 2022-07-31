@@ -97,7 +97,7 @@ section{
   margin: auto;
 }
 
-h2 > P{
+section h2{
   color: #b09761;
   letter-spacing: 8px;
   font-size: 32px;

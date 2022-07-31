@@ -117,16 +117,17 @@ h2{
   font-size: 32px;
   color: #09174e;
   width: 300px;
+  padding: 16px 0 0 150px;
 }
 
-h2 p:nth-child(1){
+.extend_trigger{
   border-bottom: 2px solid #09174e;
   padding-top: 24px;
 }
 
-h2 p:nth-child(2){
+/* h2 p:nth-child(2){
   padding: 16px 0 0 150px;
-}
+} */
 
 .marker{
   background-color: #b9caeb;

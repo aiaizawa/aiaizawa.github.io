@@ -116,7 +116,7 @@
     height: 43vw;
   }
 
-  .index_box{
+  .index_box , h2{
     font-size: 24px;
     letter-spacing: 8px;
   }
